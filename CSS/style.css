@@ -1,0 +1,454 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Festive&family=Rowdies:wght@700&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+.body{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./../pictures/gory-ozero-vodopad.jpg');
+
+}
+
+.oyna{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.566);
+}
+
+
+.logo{
+    display: inline-block;
+    width: 30%;
+    /* float: left; */
+    color: white;
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+.nav-item
+{
+    width: 70%;
+    float: right;
+}
+
+.nav-item li {
+    display: inline-block;
+    text-transform: uppercase;
+    float: right;
+       
+
+}
+
+.nav-item  a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    margin: 10px 0;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-weight: 100;
+
+
+
+}
+
+.nav-item a:hover{
+        background-color: rgba(36, 36, 36, 0.534);
+}
+
+
+.body-cont{
+    text-align: center;
+}
+
+.text1{
+    margin-top: 4em;
+    font-style: normal;
+    font-size: 30pt;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.text2 {
+    color: white;
+    margin-top: 10px;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 17px;
+    letter-spacing: normal;
+}
+
+.text3 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: normal;
+
+}
+
+.button {
+    width: 150px ;
+    padding: 15px 10px;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color:  #DD783F;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(24, 24, 24, 0.637);
+    transition: 0.5s;
+    border: none;
+}
+
+.button:hover{
+    transform: scale(1.1)
+}
+
+
+.downnavbar{
+
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+
+
+
+}
+
+.downnavbar li {
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.downnavbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    color:#768088 ;  
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.downnavbar a:hover {
+    box-shadow: 5px 5px 10px #93979b81  ;
+}
+
+.posts
+{
+    width: 15%;
+    padding-top:30px ;
+    text-align: center;
+    font-size: 20px ;
+    margin-left: 450px;
+    font-weight:normal ;
+    letter-spacing: 1px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(85, 76, 76);
+    color: rgb(85, 76, 76);
+}
+
+.cards{
+    background-color: rgba(231, 231, 231, 0.911);
+    padding: 30px 0;
+    
+}
+
+.cardlar{
+    margin-top: 30px ;
+    position: relative;
+}
+
+.card1
+{
+    width: 47%;
+    height: 250px;
+    background-image: url('./../pictures/111.jpg');
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(109, 109, 109, 0.781); */
+    border-radius: 3px;
+
+}
+
+.card2
+{
+    width: 47%;
+    height: 250px;
+    background-image: url('./../pictures/222.jfif');
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(109, 109, 109, 0.781);
+    border-radius: 3px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.text1
+{
+    margin-top:28% ;
+    color: #FFFF;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+
+
+.text2 {
+    color: #FFF;
+    margin-top: 10px;
+    /* font-family:  cursive; */
+    font-weight: 100;
+}
+
+.profil
+{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.img
+{
+    display: inline-block;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-size: cover;
+   background-image: url('./../pictures/6d8c1a3741f55ad938cb564d76fc9b7a--brad-pitt-manuel.jpg'); 
+   float: left;
+   margin-top: 10px;
+   
+}
+
+.img1
+{
+    display: inline-block;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-size: cover;
+   background-image: url('./../pictures/6d8c1a3741f55ad938cb564d76fc9b7a--brad-pitt-manuel.jpg'); 
+   float: left;
+   margin-top: 10px;
+   
+}
+
+.ism{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-family: sans-serif;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.sana{
+display: inline-block;
+text-align: right;
+float: right;
+margin-top: 20px;
+color: #FFF;
+}
+
+.clr{
+    clear: both;
+}
+
+.cards
+{
+  background-color: rgba(231, 231, 231, 0.911);
+
+}
+
+.cards2 {
+    background-color: rgba(231, 231, 231, 0.911);
+
+}
+
+
+
+.div1{
+    margin-top: 50px;
+    width: 30%;
+    height: 395px;
+    box-shadow: 0 0 10px rgb(168, 168, 168);
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 18px;
+    background-color: rgba(231, 231, 231, 0.911);
+    transition: 0.3s;
+    
+}
+
+.div1:hover {
+    box-shadow: 5px 5px 8px rgba(83, 83, 83, 0.877);
+}
+
+.rasm{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}  
+hr{
+    margin-top: 15px;
+} 
+
+.m {
+    font-size: 20pt;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.k
+{
+    padding: 0 20px;
+}
+
+.profill {
+    padding: 0 15px;
+}
+
+
+.login{
+    background-image:  url('./../pictures/777.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    
+   
+}
+.log {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 22, 0.74);
+    position: relative;
+}
+
+
+
+.logintext 
+{
+    color: white;
+    width:150px;
+    font-size: 15pt;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+}
+
+.input{
+    position: absolute;
+    top: 65%;
+    right: 41%;
+    
+}
+
+.input input {
+    padding: 15px;
+    width: 400px;
+    font-size: 15pt;
+    
+}
+
+.submit{
+    position: absolute;
+    top: 65%;
+    right: 490px;
+    padding: 15px;
+    background-color: #1b1b1bb7;
+    height: 22px;
+    color: white;
+    width: 100px ;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.navbar1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.logo1{
+    display: inline-block;
+    width: 45%;
+    /* float: left; */
+    color: white;
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.nav-item1{
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+    
+}
+
+.nav-item1 li {
+    display: inline-block;
+    text-transform: uppercase;
+    /* float: right; */
+    
+       
+
+}
+
+.nav-item1  a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    margin: 10px 0;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-weight: 100;
+
+
+
+}
+
+
+
+
